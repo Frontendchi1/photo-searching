@@ -28,7 +28,7 @@ function SearchField() {
    }
 
   return (
-    <div className='flex'>
+    <div className='flex gap-5'>
 <input  className='bg-gray-50 border border-gray-300 text-sm w-full indent-2 p-2.5 outline-none focus:border-blue-500 focus:ring-2 rounded-tl rounded-bl'
 type="search"
 placeholder='Search Anything...'
